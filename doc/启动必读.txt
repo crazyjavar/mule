@@ -1,0 +1,4 @@
+1. 第一次使用，请将配置文件中的application.properties中的spring.jpa.hibernate.ddl-auto=update改成create
+   项目启动后，会直接生成表。
+
+   需要注意：超级管理员角色在 role 表中 id 值固定为 1
